@@ -8,7 +8,7 @@
 [![nbind flowchart](doc/images/diagram.png)](doc/images/diagram.png)
 
 `nbind` is a set of headers that make your C++11 library accessible from JavaScript.
-With a single `#include` statement, your C++ compiler generates the necessary bindings
+With a single `#include` directive, your C++ compiler generates the necessary bindings
 without any additional tools. Your library is then usable as a Node.js addon or,
 if compiled to asm.js with [Emscripten](http://emscripten.org),
 directly in web pages without any plugins.
